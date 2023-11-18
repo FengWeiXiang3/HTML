@@ -1,0 +1,32 @@
+.table-2 {
+    border-spacing: 3px;
+    border: black solid;
+    text-align: center;
+}
+
+.table-2 th {
+    color: white;
+    border: black solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: green;
+}
+
+.table-2 td {
+    border: black solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.table-2 tr {
+    background-color: lightyellow;
+}
+
+.td-2 {
+    color: white;
+    background-color: yellowgreen;
+}
