@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <title>Web Table</title>
+        <style>
+            table {
+                background-color: yellow;
+            }
+
+            table, th, td {
+                border: black ridge 1px;
+            }
+
+            .tr-2 {
+                color: white;
+                background-color: blue;
+            }
+
+            th, td {
+                padding: 16px;
+            }
+
+            .button-2 {
+                width: 24px;
+                height: 16px;
+                background-color: lightgreen;
+            }
+
+            .button-3 {
+                width: 24px;
+                height: 16px;
+                background-color: lightblue;
+            }
+
+            .button-4 {
+                width: 24px;
+                height: 16px;
+                background-color: violet;
+            }
+
+            .button-5 {
+                width: 24px;
+                height: 16px;
+                background-color: orange;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr class="tr-2">
+                <th>Math</th>
+                <th>English</th>
+                <th>Programming</th>
+            </tr>
+            <tr>
+                <td>90</td>
+                <td>60</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>80</td>
+                <td>86</td>
+                <td>98</td>
+            </tr>
+        </table>
+        <p>Change The Table Width</p>
+        <button onclick="width(200)">200 px</button>
+        <button onclick="width(500)">500 px</button>
+        <br>
+        <br>
+        <p>Change The Border And The Spacing Width</p>
+        <button onclick="borderSpacing(1)">1 px</button>
+        <button onclick="borderSpacing(10)">10 px</button>
+        <button onclick="borderSpacing(20)">20 px</button>
+        <br>
+        <br>
+        <p>Change The Table Color</p>
+        <button class="button-2" onclick="backgroundColor('lightgreen')"></button>
+        <button class="button-3" onclick="backgroundColor('lightblue')"></button>
+        <button class="button-4" onclick="backgroundColor('violet')"></button>
+        <button class="button-5" onclick="backgroundColor('orange')"></button>
+        <br>
+        <br>
+        <br>
+        <button onclick="reset()">Reset</button>
+        <script src="lab 4.js"></script>
+    </body>
+</html>
